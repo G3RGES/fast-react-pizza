@@ -1,7 +1,8 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useRouteError } from "react-router-dom";
 
-function NotFound() {
+function Error() {
   const navigate = useNavigate();
+  const error = useRouteError();
 
   return (
     <div>
@@ -12,4 +13,4 @@ function NotFound() {
   );
 }
 
-export default NotFound;
+export default Error;
