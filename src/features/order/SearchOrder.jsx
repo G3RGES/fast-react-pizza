@@ -13,7 +13,7 @@ function SearchOrder() {
   function handleSubmit(e) {
     e.preventDefault();
     if (!query) return;
-    console.log(query);
+    // console.log(query);
     navigate(`/order/${query}`);
     setQuery("");
   }
