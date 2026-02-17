@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CreateUser from "./../features/user/CreateUser";
 
 function Home() {
   return (
@@ -12,6 +13,8 @@ function Home() {
       </h1>
 
       <Link to="/menu">Menu</Link>
+
+      <CreateUser />
     </div>
   );
 }
