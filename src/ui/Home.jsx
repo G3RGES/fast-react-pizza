@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <h1>
+      <h1 className="text-ston-700 text-center text-xl font-semibold">
         The best pizza.
         <br />
-        Straight out of the oven, straight to you.
+        <span className="text-yellow-500">
+          Straight out of the oven, straight to you.
+        </span>
       </h1>
 
       <Link to="/menu">Menu</Link>
