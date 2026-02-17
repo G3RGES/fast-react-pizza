@@ -12,8 +12,6 @@ function Home() {
         </span>
       </h1>
 
-      <Link to="/menu">Menu</Link>
-
       <CreateUser />
     </div>
   );
